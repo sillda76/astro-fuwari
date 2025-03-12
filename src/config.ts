@@ -55,15 +55,15 @@ export const profileConfig: ProfileConfig = {
   name: 'sillda76',
   bio: '熟练使用ChatGPT+Deepseek+Grok',
   links: [
-        {
-      name: 'Telegram',
-      icon: 'assets/images/telegram.svg',
-      url: 'https://t.me/sillda',
-    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/sillda76',
+    },
+    {
+      name: 'Telegram',
+      icon: 'fa6-brands:github',
+      url: 'https://t.me/sillda',
     },
   ],
 }
