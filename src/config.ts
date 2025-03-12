@@ -43,7 +43,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: 'Monitoring',
+      name: '探针',
       url: 'http://owqq.cc',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
@@ -53,8 +53,13 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'sillda76',
-  bio: '熟练使用Chat GPT+Deepseek+Grok',
+  bio: '熟练使用ChatGPT+Deepseek+Grok',
   links: [
+        {
+      name: 'Telegram',
+      icon: 'assets/images/telegram.svg',
+      url: 'https://t.me/sillda',
+    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
