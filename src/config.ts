@@ -62,7 +62,7 @@ export const profileConfig: ProfileConfig = {
     },
     {
       name: 'Telegram',
-      icon: 'fa6-brands:github',
+      icon: 'fa6-brands:telegram',
       url: 'https://t.me/sillda',
     },
   ],
