@@ -5,7 +5,7 @@ description: test
 image: https://pic1.imgdb.cn/item/678bde96d0e0a243d4f58595.gif
 tags: [Blogging]
 category: Front-end
-draft: true
+draft: false
 ---
 
 ![678bde96d0e0a243d4f58595.gif](https://pic1.imgdb.cn/item/678bde96d0e0a243d4f58595.gif)
