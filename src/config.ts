@@ -43,7 +43,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: 'Server',
+      name: 'Monitoring',
       url: 'http://owqq.cc',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
@@ -55,18 +55,6 @@ export const profileConfig: ProfileConfig = {
   name: 'sillda76',
   bio: '熟练使用Chat GPT+Deepseek+Grok',
   links: [
-    {
-      name: 'X',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://X.com/sillda76',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
